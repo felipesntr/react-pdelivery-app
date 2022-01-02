@@ -1,0 +1,8 @@
+.navbar {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+
+    height: 64px;
+
+    font-family: 'Open Sans';
+}
