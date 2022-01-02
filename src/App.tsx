@@ -1,13 +1,9 @@
 import './App.css';
-import { Navbar } from './presentation/components/navbar';
-import { Home } from './presentation/pages/home';
+import { Router } from './routes';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Home />
-    </div>
+    <Router />
   );
 }
 
